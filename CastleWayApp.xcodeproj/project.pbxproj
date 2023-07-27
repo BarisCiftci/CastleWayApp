@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3D8B392F2A730EBB00A6127B /* CastleWayAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B392E2A730EBB00A6127B /* CastleWayAppApp.swift */; };
-		3D8B39312A730EBB00A6127B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39302A730EBB00A6127B /* ContentView.swift */; };
 		3D8B39332A730EBC00A6127B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B39322A730EBC00A6127B /* Assets.xcassets */; };
 		3D8B39372A730EBC00A6127B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B39362A730EBC00A6127B /* Preview Assets.xcassets */; };
+		3D8B39432A730ECC00A6127B /* castleway-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B393E2A730ECC00A6127B /* castleway-data.json */; };
+		3D8B39442A730ECC00A6127B /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B393F2A730ECC00A6127B /* Castle.swift */; };
+		3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39412A730ECC00A6127B /* CastleListView.swift */; };
+		3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39422A730ECC00A6127B /* CastleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D8B392B2A730EBB00A6127B /* CastleWayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastleWayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8B392E2A730EBB00A6127B /* CastleWayAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleWayAppApp.swift; sourceTree = "<group>"; };
-		3D8B39302A730EBB00A6127B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D8B39322A730EBC00A6127B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8B39342A730EBC00A6127B /* CastleWayApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CastleWayApp.entitlements; sourceTree = "<group>"; };
 		3D8B39362A730EBC00A6127B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D8B393E2A730ECC00A6127B /* castleway-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "castleway-data.json"; sourceTree = "<group>"; };
+		3D8B393F2A730ECC00A6127B /* Castle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
+		3D8B39412A730ECC00A6127B /* CastleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleListView.swift; sourceTree = "<group>"; };
+		3D8B39422A730ECC00A6127B /* CastleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				3D8B392E2A730EBB00A6127B /* CastleWayAppApp.swift */,
-				3D8B39302A730EBB00A6127B /* ContentView.swift */,
+				3D8B393E2A730ECC00A6127B /* castleway-data.json */,
+				3D8B393F2A730ECC00A6127B /* Castle.swift */,
+				3D8B39412A730ECC00A6127B /* CastleListView.swift */,
+				3D8B39422A730ECC00A6127B /* CastleData.swift */,
 				3D8B39322A730EBC00A6127B /* Assets.xcassets */,
 				3D8B39342A730EBC00A6127B /* CastleWayApp.entitlements */,
 				3D8B39352A730EBC00A6127B /* Preview Content */,
@@ -129,6 +138,7 @@
 			files = (
 				3D8B39372A730EBC00A6127B /* Preview Assets.xcassets in Resources */,
 				3D8B39332A730EBC00A6127B /* Assets.xcassets in Resources */,
+				3D8B39432A730ECC00A6127B /* castleway-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8B39312A730EBB00A6127B /* ContentView.swift in Sources */,
+				3D8B39442A730ECC00A6127B /* Castle.swift in Sources */,
+				3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */,
+				3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */,
 				3D8B392F2A730EBB00A6127B /* CastleWayAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
