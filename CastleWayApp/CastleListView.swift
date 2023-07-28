@@ -20,7 +20,6 @@ struct CastleListView: View {
                         Image(castle.imageName)
                             .resizable()
                             .scaledToFill()
-                            .frame(width: 400, height: 200)
                             .cornerRadius(12)
                         
                        Text(castle.name)
