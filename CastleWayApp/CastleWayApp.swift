@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CastleWayAppApp: App {
+struct CastleWayApp: App {
     var body: some Scene {
         WindowGroup {
             CastleGridView()

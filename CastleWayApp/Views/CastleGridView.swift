@@ -23,16 +23,24 @@ struct CastleGridView: View {
                         VStack(alignment: .leading){
                             NavigationLink(destination: CastleListView()) {
                                 Rectangle()
-                                
                                     .frame(height: 180)
                                     .overlay(
-                                        Image(castle.imageName)
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
+                                        ZStack {
+                                            Image(systemName: "photo.fill")
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fit)
+                                                .foregroundColor(Color.white)
+                                                .padding()
+                                            Image(castle.imageName)
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fill)
+                                        }
                                         
                                     ).cornerRadius(8)
                                     .clipped()
-                                .padding(8)}
+                                    .padding(8)
+                                
+                            }.foregroundColor(Color.gray)
                             VStack(alignment: .leading, spacing: 6) {
                                 Text(castle.name)
                                     .font(.headline)
@@ -52,7 +60,7 @@ struct CastleGridView: View {
                                         .fontWeight(.bold)
                                     Spacer()
                                     Image(systemName: "heart.fill")
-                                    .foregroundColor(.red)
+                                        .foregroundColor(.red)
                                 }
                                 .font(.footnote)
                                 .foregroundColor(.green)
