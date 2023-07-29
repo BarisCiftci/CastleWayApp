@@ -2,7 +2,7 @@
 //  CastleGridView.swift
 //  CastleWayApp
 //
-//  Created by Baris Ciftci on 28/07/2023.
+//  Created by Baris Ciftci on 29/07/2023.
 //
 
 import SwiftUI

@@ -14,6 +14,7 @@
 		3D8B39442A730ECC00A6127B /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B393F2A730ECC00A6127B /* Castle.swift */; };
 		3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39412A730ECC00A6127B /* CastleListView.swift */; };
 		3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39422A730ECC00A6127B /* CastleData.swift */; };
+		3DEE315E2A75824E0098FBB8 /* CastleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D8B393F2A730ECC00A6127B /* Castle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
 		3D8B39412A730ECC00A6127B /* CastleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleListView.swift; sourceTree = "<group>"; };
 		3D8B39422A730ECC00A6127B /* CastleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleData.swift; sourceTree = "<group>"; };
+		3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3D8B39322A730EBC00A6127B /* Assets.xcassets */,
 				3D8B39342A730EBC00A6127B /* CastleWayApp.entitlements */,
 				3D8B39352A730EBC00A6127B /* Preview Content */,
+				3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */,
 			);
 			path = CastleWayApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8B39442A730ECC00A6127B /* Castle.swift in Sources */,
+				3DEE315E2A75824E0098FBB8 /* CastleGridView.swift in Sources */,
 				3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */,
 				3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */,
 				3D8B392F2A730EBB00A6127B /* CastleWayAppApp.swift in Sources */,
