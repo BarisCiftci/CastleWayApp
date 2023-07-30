@@ -15,6 +15,7 @@
 		3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39412A730ECC00A6127B /* CastleListView.swift */; };
 		3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B39422A730ECC00A6127B /* CastleData.swift */; };
 		3DEE315E2A75824E0098FBB8 /* CastleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */; };
+		3DEE31652A7695B50098FBB8 /* CastleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEE31642A7695B50098FBB8 /* CastleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3D8B39412A730ECC00A6127B /* CastleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleListView.swift; sourceTree = "<group>"; };
 		3D8B39422A730ECC00A6127B /* CastleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleData.swift; sourceTree = "<group>"; };
 		3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleGridView.swift; sourceTree = "<group>"; };
+		3DEE31642A7695B50098FBB8 /* CastleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */,
 				3D8B39412A730ECC00A6127B /* CastleListView.swift */,
+				3DEE31642A7695B50098FBB8 /* CastleDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				3D8B39442A730ECC00A6127B /* Castle.swift in Sources */,
 				3DEE315E2A75824E0098FBB8 /* CastleGridView.swift in Sources */,
 				3D8B39462A730ECC00A6127B /* CastleListView.swift in Sources */,
+				3DEE31652A7695B50098FBB8 /* CastleDetailView.swift in Sources */,
 				3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */,
 				3D8B392F2A730EBB00A6127B /* CastleWayApp.swift in Sources */,
 			);

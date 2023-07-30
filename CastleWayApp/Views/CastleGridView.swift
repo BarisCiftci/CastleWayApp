@@ -21,7 +21,7 @@ struct CastleGridView: View {
                     ForEach(castleData.castles) {castle in
                         
                         VStack(alignment: .leading){
-                            NavigationLink(destination: CastleListView()) {
+                            NavigationLink(destination: CastleDetailView(castleDetilItem: castle)) {
                                 Rectangle()
                                     .frame(height: 180)
                                     .overlay(
