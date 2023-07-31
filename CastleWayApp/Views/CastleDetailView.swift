@@ -55,7 +55,7 @@ struct CastleDetailView: View {
 
 struct CastleDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        let example = Castle(id: 0, name: "CastleName", imageName: "besiekiery", latitude: "String", longitude: "String", address: "String", description: "jksjdks")
+        let example = Castle(id: 0, name: "CastleName", imageName: "besiekiery", latitude: 50.92176, longitude: 16.0978687, address: "String", description: "jksjdks")
         CastleDetailView(castleDetilItem: example)
     }
 }

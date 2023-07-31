@@ -12,8 +12,8 @@ struct Castle: Codable, Identifiable {
     let id: Int
     let name: String
     let imageName: String
-    let latitude: String
-    let longitude: String
+    let latitude: Double
+    let longitude: Double
     let address: String
     let description: String
 }
