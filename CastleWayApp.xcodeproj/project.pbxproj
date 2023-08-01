@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D261E282A78508C005D0B98 /* CastleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E272A78508C005D0B98 /* CastleMapView.swift */; };
+		3D3C11602A79880500B9F370 /* CastleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C115F2A79880500B9F370 /* CastleTabView.swift */; };
 		3D8B392F2A730EBB00A6127B /* CastleWayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B392E2A730EBB00A6127B /* CastleWayApp.swift */; };
 		3D8B39332A730EBC00A6127B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B39322A730EBC00A6127B /* Assets.xcassets */; };
 		3D8B39372A730EBC00A6127B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B39362A730EBC00A6127B /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		3D261E272A78508C005D0B98 /* CastleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleMapView.swift; sourceTree = "<group>"; };
+		3D3C115F2A79880500B9F370 /* CastleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleTabView.swift; sourceTree = "<group>"; };
 		3D8B392B2A730EBB00A6127B /* CastleWayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastleWayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8B392E2A730EBB00A6127B /* CastleWayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleWayApp.swift; sourceTree = "<group>"; };
 		3D8B39322A730EBC00A6127B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				3DEE315D2A75824E0098FBB8 /* CastleGridView.swift */,
 				3DEE31642A7695B50098FBB8 /* CastleDetailView.swift */,
 				3D261E272A78508C005D0B98 /* CastleMapView.swift */,
+				3D3C115F2A79880500B9F370 /* CastleTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				3D8B39442A730ECC00A6127B /* Castle.swift in Sources */,
 				3D261E282A78508C005D0B98 /* CastleMapView.swift in Sources */,
+				3D3C11602A79880500B9F370 /* CastleTabView.swift in Sources */,
 				3DEE315E2A75824E0098FBB8 /* CastleGridView.swift in Sources */,
 				3DEE31652A7695B50098FBB8 /* CastleDetailView.swift in Sources */,
 				3D8B39472A730ECC00A6127B /* CastleData.swift in Sources */,
