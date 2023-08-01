@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct CastleMapVIew: View {
+struct CastleMapView: View {
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 52.0, longitude: 19.0),
         span: MKCoordinateSpan(latitudeDelta: 12.0, longitudeDelta: 12.0)
@@ -45,8 +45,8 @@ struct CastleAnnotationView: View {
 
 
 
-struct CastleMapVIew_Previews: PreviewProvider {
+struct CastleMapView_Previews: PreviewProvider {
     static var previews: some View {
-        CastleMapVIew()
+        CastleMapView()
     }
 }
