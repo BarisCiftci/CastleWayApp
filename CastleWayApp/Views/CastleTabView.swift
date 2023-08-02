@@ -22,6 +22,18 @@ struct CastleTabView: View {
                     Image(systemName: "map")
                     Text("Map")
                 }
+            
+            CastleMapView()
+                .tabItem{
+                    Image(systemName: "heart")
+                    Text("Favorite")
+                }
+            
+            CastleMapView()
+                .tabItem{
+                    Image(systemName: "checkmark.seal.fill")
+                    Text("Visited")
+                }
         }.ignoresSafeArea()
     }
 }
