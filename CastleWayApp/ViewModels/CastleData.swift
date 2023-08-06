@@ -8,7 +8,7 @@
 import Foundation
 
 class CastleData: ObservableObject {
-@Published var castles: [Castle] = []
+    @Published var castles: [Castle] = []
     init() {
         if let file = Bundle.main.url(forResource: "castleway-data", withExtension: "json") {
             do{ let data = try Data(contentsOf: file)
