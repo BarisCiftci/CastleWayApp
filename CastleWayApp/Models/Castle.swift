@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+let TAB_TITLE_MAP = "Map"
 
 struct Castle: Codable, Identifiable {
     let id: Int
