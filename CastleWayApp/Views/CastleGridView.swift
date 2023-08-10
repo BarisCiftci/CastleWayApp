@@ -18,61 +18,8 @@ struct CastleGridView: View {
             ScrollView {
                 LazyVGrid(columns: column) {
                     
-                    ForEach(castleData.castles) {castle in
-                        
-                        VStack(alignment: .leading){
-                            NavigationLink(destination: CastleDetailView(castleDetilItem: castle)) {
-                                Rectangle()
-                                    .frame(height: 180)
-                                    .overlay(
-                                        ZStack {
-                                            Image(systemName: "photo.fill")
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fit)
-                                                .foregroundColor(Color.white)
-                                                .padding()
-                                            Image(castle.imageName)
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                        }
-                                        
-                                    ).cornerRadius(8)
-                                    .clipped()
-                                    .padding(8)
-                                
-                            }.foregroundColor(Color.gray)
-                            VStack(alignment: .leading, spacing: 6) {
-                                Text(castle.name)
-                                    .font(.headline)
-                                    .fontWeight(.bold)
-                                    .lineLimit(1)
-                                
-                                
-                                Text(castle.address)
-                                    .font(.footnote)
-                                
-                                HStack(spacing: 4) {
-                                    
-                                    Image(systemName: "checkmark.seal.fill")
-                                    
-                                    
-                                    Text("Visited")
-                                        .fontWeight(.bold)
-                                    Spacer()
-                                    Image(systemName: "heart.fill")
-                                        .foregroundColor(.red)
-                                }
-                                .font(.footnote)
-                                .foregroundColor(.green)
-                            }
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 8)
-                            
-                        }
-                        
-                        .background(Color.white)
-                        .cornerRadius(12)
-                        .shadow(radius: 4, x: 1, y: 1)
+                    ForEach(castleData.castles) { castle in
+                        CastleGridViewItem(castle: castle)
                     }
                     
                 }
@@ -88,4 +35,62 @@ struct CastleGridView_Previews: PreviewProvider {
     static var previews: some View {
         CastleGridView()
     }
+}
+
+func CastleGridViewItem(castle: Castle) -> some View {
+
+        VStack(alignment: .leading){
+            NavigationLink(destination: CastleDetailView(castleDetilItem: castle)) {
+                Rectangle()
+                    .frame(height: 180)
+                    .overlay(
+                        ZStack {
+                            Image(systemName: "photo.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .foregroundColor(Color.white)
+                                .padding()
+                            Image(castle.imageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                        }
+                        
+                    ).cornerRadius(8)
+                    .clipped()
+                    .padding(8)
+                
+            }.foregroundColor(Color.gray)
+            VStack(alignment: .leading, spacing: 6) {
+                Text(castle.name)
+                    .font(.headline)
+                    .fontWeight(.bold)
+                    .lineLimit(1)
+                
+                
+                Text(castle.address)
+                    .font(.footnote)
+                
+                HStack(spacing: 4) {
+                    
+                    Image(systemName: "checkmark.seal.fill")
+                    
+                    
+                    Text("Visited")
+                        .fontWeight(.bold)
+                    Spacer()
+                    Image(systemName: "heart.fill")
+                        .foregroundColor(.red)
+                }
+                .font(.footnote)
+                .foregroundColor(.green)
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            
+        }
+        
+        .background(Color.white)
+        .cornerRadius(12)
+        .shadow(radius: 4, x: 1, y: 1)
+    
 }

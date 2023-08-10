@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CastleTabView: View {
+struct CastleWayMainScreen: View {
     let castle: [Castle] = []
     var body: some View {
         TabView {
@@ -20,7 +20,7 @@ struct CastleTabView: View {
             CastleMapView()
                 .tabItem{
                     Image(systemName: "map")
-                    Text("Map")
+                    Text(TAB_TITLE_MAP)
                 }
             
             CastleMapView()
@@ -38,8 +38,8 @@ struct CastleTabView: View {
     }
 }
 
-struct CastleTabView_Previews: PreviewProvider {
+struct CastleWayMainScreen_Previews: PreviewProvider {
     static var previews: some View {
-        CastleTabView()
+        CastleWayMainScreen()
     }
 }
